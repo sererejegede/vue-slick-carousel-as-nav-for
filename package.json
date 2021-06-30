@@ -39,7 +39,7 @@
     "stylelint-config-standard": "^21.0.0"
   },
   "lint-staged": {
-    "*.js": "eslint --cache --fix",
-    "*.css": "stylelint --fix"
+    "*.{js,ts,vue}": "eslint --cache --fix",
+    "*.{scss,css}": "stylelint --fix"
   }
 }
