@@ -85,7 +85,7 @@ export default {
         { length: 5 },
         (item, i) => `https://picsum.photos/id/${i * 20}/900/500`
       ),
-      currentThumbSlide: 0,
+      currentThumbSlide: 0
     }
   },
   mounted() {
