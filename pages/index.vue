@@ -3,6 +3,7 @@
     <div>
       <Logo />
       <h1 class="text-5xl mt-4 text-center">carousel</h1>
+      <nuxt-link class="text-5xl" to="table">table</nuxt-link>
       <div class="flex items-start my-20 relative rounded-3xl">
         <div class="flex-grow mr-2 w-4/5 rounded-l-3xl">
           <VueSlickCarousel
