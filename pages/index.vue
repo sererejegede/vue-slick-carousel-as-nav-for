@@ -3,7 +3,25 @@
     <div>
       <Logo />
       <h1 class="text-5xl mt-4 text-center">carousel</h1>
-      <nuxt-link class="text-5xl" to="table">table</nuxt-link>
+      <div class="flex space-x-8">
+        <nuxt-link
+          class="
+            text-5xl text-gray-800
+            hover:text-pink-500
+            transition-colors
+            duration-60
+          "
+          to="table"
+        >
+          table
+        </nuxt-link>
+        <nuxt-link
+          class="text-5xl hover:text-pink-500 transition-colors duration-60"
+          to="accordion"
+        >
+          accordion
+        </nuxt-link>
+      </div>
       <div class="flex items-start my-20 relative rounded-3xl">
         <div class="flex-grow mr-2 w-4/5 rounded-l-3xl">
           <VueSlickCarousel
